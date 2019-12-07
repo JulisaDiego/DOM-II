@@ -90,5 +90,5 @@ const stopNav = document.querySelector('nav');
 
 stopNav.addEventListener('click', (event) => {
     event.preventDefault();
-    console.log('You cannot click that, sorry!')
+    console.log('stop trying to make click happen, its not going to happen')
 })
